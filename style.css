@@ -1,0 +1,54 @@
+/*  These styles are simply cosmetic, that I have used to make the columns
+    look neat.
+
+    The media settings taken from foundation.css need to be inverted for use
+    as your own media breaks. It sounds the wrong way around but this is
+    because Foundation uses a hide method, so in its CSS, so there is a bit
+    of reverse logic needed. (e.g. For declaring styles that should be on
+    large and greater, use the hide-for-large media settings).
+*/
+
+/* Styles for large and above (using header hide-for-large) */
+@media screen and (min-width: 64em) {
+  .row {
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    line-height: 3em;
+  }
+  .columns {
+      border-left: 1px solid #DDDDDD;
+  }
+  .aka-header {
+    font-weight: bold;
+    background-color: #EEEEEE;
+  }
+  .aka-blank {
+    background-color: #EEEEEE;
+    color: #EEEEEE;
+  }
+}
+
+/* Styles for below large (using header show-for-large) */
+@media screen and (max-width: 63.9375em) {
+  .columns {
+    border: 1px solid #DDDDDD;
+    border-bottom: none;
+    line-height: 2em;
+    font-weight: bold;
+  }
+  .columns span {
+    font-weight: normal;
+  }
+  .row{
+    border-bottom: 1px solid #DDDDDD;
+    margin-bottom: 20px;
+  }
+  .aka-mobile-header {
+    font-weight: normal;
+    font-size: 1.2em;
+    border: none;
+    line-height: 3em;
+    padding-left: 0;
+
+  }
+}

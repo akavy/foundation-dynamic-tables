@@ -3,49 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta author="Jonathan Dawson" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation Dynamic Tables</title>
+    <title>Club Duties Rota</title>
 
-    <!-- Using file from foundation-6.2.3-complete -->
     <link rel="stylesheet" href="foundation.css" />
-
-    <style>
-
-    /*  These styles are simply cosmetic, I have used them to illustrate how
-        you can change the appearance of the table.
-
-        The media settings taken from foundation.css need to be inverted for use
-        as your own media breaks. It sounds the wrong way around but this is
-        because Foundation uses a hide method in its CSS, so there is a bit
-        of reverse logic needed. (e.g. For declaring styles that should be on
-        large and greater, use the hide-for-large media settings).
-    */
-
-    /* Styles for large and above (using header hide-for-large) */
-    @media screen and (min-width: 64em) {
-      .columns {
-          border: 1px solid gray;
-      }
-    }
-
-    /* Styles for below large (using header show-for-large) */
-    @media screen and (max-width: 63.9375em) {
-      body {
-        color: red;
-      }
-    }
-
-    </style>
+    <link rel="stylesheet" href="style.css" />
 
   </head>
 
   <body style="padding: 3em;">
-    <h3>Tables test</h3>
+    <h3><center>
+      Club Duties Rota
+    </center></h3>
 
-    <!-- The first row, the header row, is set using the show-for-large .. i.e.
-         all screen sizes above large will show the header row. -->
-    <div class="row show-for-large">
+    <div class="row show-for-large aka-header">
       <div class="large-4 columns">
         Date
       </div>
@@ -64,17 +35,10 @@
     </div>
 
     <div class="row">
-      <div class="large-4 columns">
-        Sunday, 10th July 2016
+      <div class="large-4 columns aka-mobile-header">
+        Sunday, 7th July 2016
       </div>
       <div class="large-2 columns">
-
-        <!-- The span contains the header label inserted with a hide-for-large class
-             so that it only appears for screen sizes below large. -->
-        <!-- It looks tedious to insert the header span for every entry, but this version
-             works without the use of Javascript. You could either introduce server-side
-             code to automatically do this or a bit of client-side Javascript to add
-             the relevant headers. -->
         <span class="hide-for-large">OOD: </span>J Derby
       </div>
       <div class="large-2 columns">
@@ -88,25 +52,27 @@
       </div>
     </div>
 
-    <!-- The table I'm building requires some entries not to appear in the table.
-         This example simply uses a couple of Foundation's classes ( large-offset-2
-         and end ) to control the layout. -->
     <div class="row">
-      <div class="large-4 columns">
-        Wednesday, 13th July 2016
+      <div class="large-4 columns aka-mobile-header">
+        Wednesday, 10th July 2016
       </div>
       <div class="large-2 columns">
         <span class="hide-for-large">OOD: </span>P Smith
       </div>
-      <div class="large-2 large-offset-2 end columns">
+      <div class="large-2 columns show-for-large aka-blank">
+        <span class="hide-for-large">AD: </span>N/A
+      </div>
+      <div class="large-2 columns">
         <span class="hide-for-large">Launch: </span>A Jones
+      </div>
+      <div class="large-2 columns show-for-large aka-blank">
+        <span class="hide-for-large">Catering: </span>N/A
       </div>
     </div>
 
-
     <div class="row">
-      <div class="large-4 columns">
-        Sunday, 17th July 2016
+      <div class="large-4 columns aka-mobile-header">
+        Sunday, 14th July 2016
       </div>
       <div class="large-2 columns">
         <span class="hide-for-large">OOD: </span>H Smith
@@ -119,6 +85,24 @@
       </div>
       <div class="large-2 columns">
         <span class="hide-for-large">Catering: </span>A Richards
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-4 columns aka-mobile-header">
+        Wednesday, 17th July 2016
+      </div>
+      <div class="large-2 columns">
+        <span class="hide-for-large">OOD: </span>P Smith
+      </div>
+      <div class="large-2 columns show-for-large aka-blank">
+        <span class="hide-for-large">AD: </span>N/A
+      </div>
+      <div class="large-2 columns">
+        <span class="hide-for-large">Launch: </span>A Jones
+      </div>
+      <div class="large-2 columns show-for-large aka-blank">
+        <span class="hide-for-large">Catering: </span>N/A
       </div>
     </div>
 

@@ -3,11 +3,11 @@
 Designed to enable **easier reading of tables on mobile devices**, this simple bit of code displays a table which, under a particular screen size, displays the information vertically rather than horizontally and places the header text next to each item.
 
 **Larger screen table appearance**
-<img src="https://github.com/akavy/foundation-dynamic-tables/blob/master/LargeTable.png" alt="Large view of table" />
+<img src="https://github.com/akavy/foundation-dynamic-tables/blob/master/LargeTable.png" alt="Large view of table" border="1" />
 
 **Mobile screen table appearance**
 NOTE: Red colouring is just for effect .. see the notes in the file.
-<img src="https://github.com/akavy/foundation-dynamic-tables/blob/master/MobileViewTable.png" alt="Mobile view of table" />
+<img src="https://github.com/akavy/foundation-dynamic-tables/blob/master/MobileViewTable.png" alt="Mobile view of table" border="1" />
 
 The styling system utilises the [Zurb Foundation Sites](http://foundation.zurb.com) styling framework (version 6.2.3).
 

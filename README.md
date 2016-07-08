@@ -2,6 +2,8 @@
 
 Designed to enable **easier reading of tables on mobile devices**, this simple bit of code displays a table which, under a particular screen size, displays the information vertically rather than horizontally and places the header text next to each item.
 
+You can **view a demo** [here](http://www.akavy.com/open/foundation-dynamic-tables).
+
 **Larger screen table appearance**
 
 <img src="https://github.com/akavy/foundation-dynamic-tables/blob/master/LargeTable.png" alt="Large view of table" />

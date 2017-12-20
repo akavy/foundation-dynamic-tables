@@ -4,16 +4,6 @@ Designed to enable **easier reading of tables on mobile devices**, this simple b
 
 You can **view a demo** [here](http://www.akavy.com/open/foundation-dynamic-tables).
 
-**Larger screen table appearance**
-
-<img src="https://github.com/akavy/foundation-dynamic-tables/blob/master/LargeTable.png" alt="Large view of table" />
-
-**Mobile screen table appearance**
-NOTE: Red colouring is just for effect .. see the notes in the file.
-
-<img src="https://github.com/akavy/foundation-dynamic-tables/blob/master/MobileViewTable.png" alt="Mobile view of table" />
-
-
 The styling system utilises the [Zurb Foundation Sites](http://foundation.zurb.com) styling framework (version 6.2.3).
 
 There are a couple of additional styles at the top of the code to demonstrate the ability to customise the information based on whether it is a horizontal or vertical table.
